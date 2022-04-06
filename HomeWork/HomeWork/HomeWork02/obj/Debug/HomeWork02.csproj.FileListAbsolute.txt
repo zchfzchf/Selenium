@@ -1,0 +1,9 @@
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\bin\Debug\HomeWork02.exe.config
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\bin\Debug\HomeWork02.exe
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\bin\Debug\HomeWork02.pdb
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\bin\Debug\WebDriver.dll
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\obj\Debug\HomeWork02.csprojAssemblyReference.cache
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\obj\Debug\HomeWork02.csproj.CoreCompileInputs.cache
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\obj\Debug\HomeWork02.csproj.CopyComplete
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\obj\Debug\HomeWork02.exe
+C:\ZWW_CSharp\HomeWork\HomeWork\HomeWork02\obj\Debug\HomeWork02.pdb
