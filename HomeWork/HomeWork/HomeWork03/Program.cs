@@ -18,9 +18,9 @@ namespace HomeWork03
     {
         static void Main(string[] args)
         {
-            //Methods();
+            Methods();
 
-            //Radio_ChkBox();
+            Radio_ChkBox();
 
             SelectOption();
         }

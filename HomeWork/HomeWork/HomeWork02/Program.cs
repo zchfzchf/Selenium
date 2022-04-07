@@ -10,7 +10,10 @@ using System.Threading.Tasks;
 namespace HomeWork02
 {
     class Program
-    {
+    {/// <summary>
+    /// driver.Forward(); driver.Back(); driver.Refresh()
+    /// </summary>
+    /// <param name="args"></param>
         static void Main(string[] args)
         {
 
