@@ -10,19 +10,21 @@ namespace POMTEST
 {
     public class Browser
     {
-        private IWebDriver webDriver = new FirefoxDriver();
-
+        public static IWebDriver webDriver = new FirefoxDriver();
+        
+        /* Use class static property and methods
         public IWebDriver Br()
         {
             return webDriver;
         }
+        */
 
-        public void Goto(string url)
+        public static void Goto(string url)
         {
             webDriver.Url = url;
         }
 
-        public void Close()
+        public static void Close()
         {
             webDriver.Quit();
         }

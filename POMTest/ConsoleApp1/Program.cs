@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POMTEST;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            POMTEST.HomePage homePage = new POMTEST.HomePage();
-            homePage.Goto();
-            homePage.SelectLogin();
+            PagesMgmt.Homepage.Goto();
+            PagesMgmt.Homepage.SelectLogin();
+            PagesMgmt.LoginPage.Login("test001", "Test1234");
+            PagesMgmt.Homepage.SelectLoadMore();
+            PagesMgmt.ListPage.SelectProducts();
             
         }
     }

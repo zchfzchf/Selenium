@@ -13,9 +13,7 @@ namespace POMTEST
 {
     public class HomePage
     {
-        static String Url = "http://lyratesting2.co.nz/";
-
-        Browser br = new Browser();
+        static string Url = "http://lyratesting2.co.nz/";
 
         //[FindsBy(How=How.LinkText, using="登录")]
         //private IWebElement Login;
@@ -28,24 +26,24 @@ namespace POMTEST
 
         public void SelectLogin()
         {
-            WebDriverWait wait = new WebDriverWait(br.Br(), new TimeSpan(0, 0, 5));
+            WebDriverWait wait = new WebDriverWait(Browser.webDriver, new TimeSpan(0, 0, 5));
 
             wait.Until(ExpectedConditions.ElementIsVisible(By.LinkText("登录")));
-            IWebElement Login = br.Br().FindElement(By.LinkText("登录"));
+            IWebElement Login = Browser.webDriver.FindElement(By.LinkText("登录"));
             Login.Click();
         }
 
         public void SelectLoadMore()
         {
-            WebDriverWait wait = new WebDriverWait(br.Br(), new TimeSpan(0, 0, 5));
+            WebDriverWait wait = new WebDriverWait(Browser.webDriver, new TimeSpan(0, 0, 5));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div[1]/section[2]/div/div[4]/a")));
-            IWebElement  LoadMore= br.Br().FindElement(By.XPath("/html/body/div[1]/section[2]/div/div[4]/a"));
+            IWebElement  LoadMore= Browser.webDriver.FindElement(By.XPath("/html/body/div[1]/section[2]/div/div[4]/a"));
             LoadMore.Click();
         }
 
         public void Goto()
         {
-            br.Goto(Url);
+            Browser.Goto(Url);
         }
     }
 }

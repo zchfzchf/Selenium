@@ -16,19 +16,19 @@ namespace POMTEST
                 return homePage;
             }
         }
-        public static HomePage LoginPage
+        public static LoginPage LoginPage
         {
             get
             {
-                var loginPage = new HomePage();
+                var loginPage = new LoginPage();
                 return loginPage;
             }
         }
-        public static HomePage ListPage
+        public static ListPage ListPage
         {
             get
             {
-                var listPage = new HomePage();
+                var listPage = new ListPage();
                 return listPage;
             }
         }
